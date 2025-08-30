@@ -9,7 +9,7 @@ There are many ways to end up in the center of the spectrum. In fact, you can vo
 
 I explore this by taking the PCA from the previous post, and applying an inverse transform on it. The inverse transform is then compared to the input (=the votes of the parties on the various topics). The standard deviation of this residual is a measure of how well we can project the answers (a $30$ dimensional vector) from the principal components (a 2d vector). We can plot this against a measure of the centricity (in this case, the length of the vector in (PC1, PC2) space.
 
-![img](../img/centricity_vs_inverse_pca_residuals)
+![img](img/centricity_vs_inverse_pca_residuals)
 
 What we then see is that indeed the most central parties (lowest centricity) are the least predictable (largest spread in residuals ~ highest entropy).
 
