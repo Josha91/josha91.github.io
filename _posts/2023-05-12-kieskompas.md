@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "KiesKompas: een nieuwe indeling"
+title: "KiesKompas PCA: a new way to classify political parties"
 date: 2023-05-12
 ---
 The “KiesKompas” (voting compass) is a popular voting aid in the Netherlands which has been used since 2006 to help voters make an informed choice in national elections. Based on 30 politically relevant theses, political parties are stratified along two axes: “left/right” and “conservative/progressive”. By giving their opinion on each of these theses, a voter is placed somewhere in this space as well and the proximity to each of the parties is translated into a voting advise. 
