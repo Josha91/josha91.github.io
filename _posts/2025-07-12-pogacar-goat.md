@@ -11,6 +11,4 @@ Therefore, I wanted to know how Pogacar stacks up against those two riders in te
 
 As you can see, Pogacar is currently ahead of Merckx at the same age, and it is very likely he will be ahead of Cav too by the end of this tour.
 
-Merckx' career was relatively short compared to the others. At the age Merckx won his first stage, Pogacar had already won 9. Furthermore, Merckx won all his stages in just 6 tours (participated in 7); this is Pogacar's 6th tour already.
-
-Not drawing any conclusions. Different times, different riders.
+Merckx' career was relatively short compared to the others. At the age Merckx won his first stage, Pogacar had already won 9. Furthermore, Merckx won all his stages in just 6 tours (participated in 7); this is Pogacar's 6th tour already. So Pogacar won't beat Merckx in the highest number of stages _per tour_, but given that the longevity of modern cyclists is higher, he will likely have the highest number of stages by the time he's done.
