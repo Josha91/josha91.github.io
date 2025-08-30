@@ -16,14 +16,14 @@ As an aside, because I thought it was interesting: a methodological flaw they po
 
 The main plot of the paper is reproduced here:
 
-![img](../img/income_happiness/deaton_kahneman.png)
+![img](/img/income_happiness/deaton_kahneman.png)
 
 Here, "ladder" refers to the life satisfaction and, as can be seen, it increases with income. The other measures all refer to different forms of day-to-day happiness, and all increase only up to a certain point, after which they flatten off. Note, in today's (2024) dollars, that would be closer to 100k US dollars.
 
 ## Maybe the plateau doesn't exist after all?
 Later work, most notably _Experienced well-being rises with income, even above $75,000 per year_ by Matthew Killingworth, finds that the plateau does not, in fact, exist. Methodologically, the biggest difference with the original study is (1) more fine grained income statements (especially, higher resolution at the high-earner end), reducing statistical artifacts, and (2) asking (via smart phone pop ups) in _real time_ about people's happiness, and scoring that on a 0-10 scale rather than binary yes/no questions. This avoids all sorts of biases. Killingworth's version of the plot is then:
 
-![img](../img/income_happiness/killingworth.png)
+![img](/img/income_happiness/killingworth.png)
 
 In what the authors rather amusingly describe as a _adversarial collaboration_, Kahneman and Killingworth also produced a 2023 paper in which they reconcile their results and find that even though Killingworth's results describe the majority of people, for a minority (the least happy people) the original result (with a plateau) still holds.
 
