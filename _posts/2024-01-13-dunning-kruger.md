@@ -12,7 +12,7 @@ If you knew all this already: forget everything you thought you knew about this.
 
 Have a look, for instance, at what happens when you google the effect:
 
-![img](../img/dunning_kruger/google_results.png)
+![img](/img/dunning_kruger/google_results.png)
 
 A vast majority of these graphs show (qualitatively) the same thing: with “knowledge” (or something similar) on the x-axis and “confidence” (or something similar) on the y-axis it shows an early peak in confidence at low levels of knowledge (famously dubbed "mount stupid”). The confidence then drops off sharply, only to grow again as people gain more knowledge (and, supposedly, have a more accurate picture of their own skill).
 
@@ -21,7 +21,7 @@ The problem: of the 11 top hits, only one (top row, third from the left) has any
 ## Dunning-Kruger (1999)
 So let's have a look at the actual publication. In their 1999 publication, Dunning & Kruger performed a series of tests (in humor, logical reasoning and English grammar) with their subjects, and asked them to do a self-assessment of their ability. For each quartile of actual test performance, they then plotted the average test score (a 1-to-1 diagonal by definition) and the average self assessment. One such result looks like this:
 
-![img](../img/dunning_kruger/original_graph.png)
+![img](/img/dunning_kruger/original_graph.png)
 
 (Two of the four experiments don't show such a clear positive correlation but show little correlation if at all).
 
@@ -47,7 +47,7 @@ The most compelling alternative, in my opinion, is provided by work from Nuhfer 
 
 Some of this can be compellingly understood with some simple simulations. In the graph below, I generate $1000$ _random_ (x, y) values. This thus represents complete metagonitive ignorance. Because of this, the median is flat and this "X"-pattern in the comparison to the diagonal is immediately evident.
 
-![img](../img/dunning_kruger/dk_random_scatter.png)
+![img](/img/dunning_kruger/dk_random_scatter.png)
 
 Considering that with perfect information the self-evaluation would be equal to the actual performance (i.e. a diagonal), a linear combination of the flat signal from random noise plus the 1-1 from perfect assessments explains the observations: some signal and a whole lot of noise.
 
@@ -55,7 +55,7 @@ There are other potential artifacts, such as a _ceiling effect_: there is a natu
 
 I simulated this in the figure below:
 
-![img](../img/dunning_kruger/dk_ceiling_effect.png)
+![img](/img/dunning_kruger/dk_ceiling_effect.png)
 
 This time, we assume that $x$ and $y$ _do_ correlate, but with some scatter. As discussed, we then apply the ceiling effects to it, and take the average. As suspected, this flattens the curve in red. Without the ceiling effects, this would definitially be a 1-1 relationship, overlapping the black line.
 
