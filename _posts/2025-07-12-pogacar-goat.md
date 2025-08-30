@@ -7,7 +7,7 @@ People are (rightfully) amazed at what Pogacar has already achieved at 26, and c
 
 Therefore, I wanted to know how Pogacar stacks up against those two riders in terms of Tour de France wins, at the same age.
 
-![img](../img/cycling/pogacar)
+![img](/img/cycling/pogacar)
 
 As you can see, Pogacar is currently ahead of Merckx at the same age, and it is very likely he will be ahead of Cav too by the end of this tour.
 
