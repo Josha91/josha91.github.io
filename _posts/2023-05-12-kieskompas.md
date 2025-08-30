@@ -13,7 +13,7 @@ Finally, we will look at some problematic features of the KiesKompas.
 
 ## KiesKompas 2017
 
-![KiesKompas 2017](../img/kieskompas_2017.png)
+![KiesKompas 2017](/img/kieskompas_2017.png)
 
 The Figure above is the KiesKompas from the general elections in 2017. Clearly, all but two parties (D66 and PVV) appear to be on a diagonal running from progressive-and-left to conservative-and-right. As suggested above, this _may_ be due to the particular way of projecting the multidimensional "political beliefs"-space onto this two dimensional space. Here, we will try to improve on this by finding two axes that maximize the variance of the data, i.e. the separability of parties. To do this, we will employ _principal component analysis_ or PCA.
 
@@ -21,7 +21,7 @@ What is principal component analysis? It is a way of reducing the dimensionality
 
 We can apply this to the KiesKompas by considering each question as one dimension. We can then encode the possible answers (“strongly disagree”, “disagree”, “neutral”, “agree”, “strongly agree”) numerically as -2, -1, 0, 1, 2 respectively. Each political party thus has a position in a 30-dimensional space that we reduce, with PCA, to a position in two-dimensional (PC1, PC2) space.
 
-![PCA 2017](../img/kieskompas_2017_pca.png)
+![PCA 2017](/img/kieskompas_2017_pca.png)
 
 The results are shown in Figure 2. Visually that seems to work as expected: the parties are less clustered and all four quadrants are occupied. We can confirm this by computing the variance that is explained by the principal components (versus the default KiesKompas axes). In PCA, the principal components are equivalent to eigenvectors of the covariance matrix of the data, and the explained variance is equivalent to the respective eigenvalues. The _relative_ explained variance is thus the ratio of an eigenvalue to the sum of all eigenvalues. All of this is computed under the hood in _scikit-learn_ in Python.
 
