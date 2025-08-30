@@ -5,7 +5,7 @@ date: 2025-07-08
 ---
 For the past four-and-a-half years, there have been two riders who could contest the Tour de France: Tadej Pogacar, and Jonas Vingegaard. It is already one of cycling's historic rivalries. To show just how close it has been, I decided to have a look at the _overall_ time difference between the pair:
 
-![img](../img/cycling/jonas_pogi.png)
+![img](/img/cycling/jonas_pogi.png)
 
 This graph shows the time difference, in seconds, between them, with a positive delta being in Pogacar's favour and a negative delta in Vingegaard's, such that
 
