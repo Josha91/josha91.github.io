@@ -9,12 +9,12 @@ A while ago I read an article about just this for the 'Big 4' in American sports
 
 To that end, I wanted to have a look at European football and see how competitive different leagues are. To this end, we (1) find the point totals at the end of each season, and (2) compute the Gini index on the distribution. We do this for the big leagues (Premier League, Serie A, Bundesliga and La Liga), but also the lower tiers in those countries. This is shown in the figure below:
 
-![Gini indices](../img/football/parity.png)
+![Gini indices](/img/football/parity.png)
 
 The highest tier in each of the panels is indicated in blue, lower tiers (second and, in the case of England, third and fourth) in different colors. What is clear from this plot is that in each of these countries, the highest tier has the highest Gini index - in other words, lower parity.
 
 What is furthermore evident is that the parity seems to have decreased over the last 20 years. To confirm this, we compute the average Gini index over the top tiers of these countries.
 
-![Gini indices](../img/football/parity2.png)
+![Gini indices](/img/football/parity2.png)
 
 Conclusion: we are better off watching lower level football.
