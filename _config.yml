@@ -1,7 +1,3 @@
 title: Thoughts, Facts & Figures
 description: Just writing about stuff I like
 theme: minima
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  input: GFM
