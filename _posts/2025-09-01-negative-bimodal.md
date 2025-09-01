@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: latex_post
 title: "Negative binomial as a Poisson mixture"
 date: 2025-09-01
 ---
