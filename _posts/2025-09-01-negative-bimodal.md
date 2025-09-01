@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Negative binomial as a Poisson mixture"
-date: 2025-08-24
+date: 2025-09-01
 ---
 Recall the binomial distribution: in $n$ Bernouilli trials, each with a chance $p$ of "success" (and 1-p of failure), what is the probability of $k$-times success. This follows this discrete distribution:
 
@@ -24,3 +24,4 @@ Another very interesting way of deriving the negative binomial is by _starting_ 
 3. Now suppose you have a second, independent "Success" Poisson process, with rate $p$. If you ask the question "how many successes happened by the time $T$?", that is simply a Poisson with rate $pT$ - conditional on $T$. 
 4. Because $T$ is random and has a gamma distribution, the number of successes until you get $r$ failiures is a Poisson-Gamma mixture, but that is also the definition of the negative binomial distribution.
 
+The interesting thing is that this gives a different meaning to the negative binomial: it can be seen as a generalized Poisson process where the rate is not a constant. Think, for instance, about the number of days in the hospital, but the risk factors for patients being very different. Or car insurance policies, where not every driver has the same expected number of crashes on account of being a better/worse driver. The intuition is that the negative-binomial, on account of its larger variance, captures this convolution better.
