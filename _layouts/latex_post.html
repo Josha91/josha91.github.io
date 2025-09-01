@@ -1,11 +1,9 @@
 ---
 layout: post
 ---
-{% comment %}
-Inject MathJax only for this layout
-{% endcomment %}
+{{ content }}
 
-{% capture mathjax %}
+<!-- MathJax for LaTeX -->
 <script>
   MathJax = {
     tex: {
@@ -19,6 +17,3 @@ Inject MathJax only for this layout
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-{% endcapture %}
-
-{% assign content_for_head = content_for_head | append: mathjax %}
