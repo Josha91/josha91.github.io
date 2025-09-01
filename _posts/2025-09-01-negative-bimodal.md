@@ -13,7 +13,7 @@ $P(X = k) = \binom{k+r-1}{k} (1-p)^r \, p^k, \quad k = 0,1,2,\dots$
 
 This can also be related to the Poisson distribution. Just like the Poisson distribution relates to the binomial distribution in the limit where $n\rightarrow\infty$ and $p\rightarrow0$, the negative binomial approach the Poisson distribution in the limit where $p\rightarrow1$ and $r\rightarrow\infty$, in such a way that the expected number of failures/trials are kept constant. That is, by definition the mean is equal to the Poisson parameter $\lambda$, but it can be shown that the variance is
 
-$\operatorname{Var}(X) \;=\; \lambda \;+\; \frac{\lambda^2}{r},$
+$Var(X) \;=\; \lambda \;+\; \frac{\lambda^2}{r},$
 
 For $r\rightarrow\infty$ the variance equals the Poisson variance, but for small(er) $r$ the variance is _larger_ - for this reason, the negative binomial is often used as an _overdispersed_ alternative to the Poisson distribution.
 
