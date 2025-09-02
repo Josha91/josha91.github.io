@@ -1,6 +1,6 @@
 ---
 layout: latex_post
-title: "Negative binomial as a Poisson mixture"
+title: "Negative binomial as a Poisson-Gamma mixture"
 date: 2025-09-01
 ---
 Recall the binomial distribution: in $n$ Bernouilli trials, each with a chance $p$ of "success" (and 1-p of failure), what is the probability of $k$-times success. This follows this discrete distribution:
