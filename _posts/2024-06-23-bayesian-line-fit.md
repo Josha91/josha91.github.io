@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: latex_post
 title: "Line fitting: not as easy as it seems."
 date: 2024-06-23
 ---
