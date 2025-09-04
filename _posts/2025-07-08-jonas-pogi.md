@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: latex_post
 title: "Tour de France: 4.5 years of Vingegaard vs. Pogacar"
 date: 2025-07-08
 ---
