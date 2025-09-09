@@ -27,7 +27,7 @@ Some further observations: this shows a very loosely bimodal distribution in chu
 ## Model fit
 The data is fit with [negative binomial regression](https://josha91.github.io/2025/09/01/negative-bimodal.html). This is justified, because (1) pet ownership can be assumed to be independent between different households, (2) different family types might be expected to have different "expected" pet counts.
 
-This type of regression deserves some further explanation. First, we link the expectation value $\mu_{\#pets}$ to the predictors, $X_{i}$. The predictors, in this case, are the religious attendance as well as confounding variables such as age, sex, income, etc. as explained in the paper. These are log-linked, i.e.
+This type of regression deserves some further explanation. First, we link the expectation value $\mu_{\num pets}$ to the predictors, $X_{i}$. The predictors, in this case, are the religious attendance as well as confounding variables such as age, sex, income, etc. as explained in the paper. These are log-linked, i.e.
 
 $\log{\mu} = X_{i}\beta_{i}$
 
