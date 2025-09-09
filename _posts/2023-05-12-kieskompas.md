@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: latex_post
 title: "KiesKompas PCA: a new way to classify political parties"
 date: 2023-05-12
 ---
