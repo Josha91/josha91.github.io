@@ -16,7 +16,7 @@ Following other research that found dog owners to score higher on agreeableness 
 ## The data
 The data comes from the [GSS survey](https://gss.norc.org/us/en/gss/get-the-data/spss.html), with an explanation of the many (>1000) variables [here](https://gssdataexplorer.norc.org/variables/vfilter). In the paper, only a table with some summary statistics are given. To understand the distributions better, below I plot the data with the sub-selection as well (all respondents that answered the question of whether they have pets):
 
-![img](img/cats_religion/distributions.png)
+![img](/img/cats_religion/distributions.png)
 
 There are some small deviations from the numbers reported by Perry & Burge 2020. For instance, the subsample of respondents that were asked about pet ownership is $673$ for us, whereas they report $699$. As a consequence, there are some differences in downstream statistics as well, such as the mean number of pets reported. They also make some minor rounding errors, $699$ is $29.8\%$ of $2348$, rather than $29.7$ as they report. It's unclear where this difference comes from (error from the authors, updated catalog since their paper?), but it's out of the scope of this blog post to investigate further.
 
@@ -47,7 +47,7 @@ This can then be maximized through MLE to find the values for $\beta$ - the amou
 
 I performed this fit as well (ignoring some of the details like religious denomination encoding -- too much effort for too little expected gain). In addition to the paper, I looked to see if social satisfaction and one's self-rating about how well they handle social situations is a significant confounder:
 
-![img](img/cats_religion/pets_attendance.png)
+![img](/img/cats_religion/pets_attendance.png)
 
 Essentially the same fit they find in the paper, and the social confounder does not make a difference.
 
