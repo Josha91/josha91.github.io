@@ -1,6 +1,6 @@
 ---
 layout: latex_post
-title: "Line fitting: not as easy as it seems."
+title: "Some thoughts on OLS"
 date: 2024-06-23
 ---
 Many statistics courses teach students how to do statistical tests. Students are given a step-by-step recipe on which calculations to perform, and the caveats and conditions under which that recipe is valid are discussed. However, more often than not the assumptions made in the modelling are forgotten and only the black-box algorithm is remembered. I have seen this time and time again in all sorts of different statistical applications. Today, I want to talk about a typical example: Fitting a (straight) line to data.
